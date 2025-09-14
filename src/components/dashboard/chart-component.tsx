@@ -11,6 +11,8 @@ import {
     Legend,
     type ChartData,
     type ChartOptions,
+    BarController,
+    LineController,
 } from "chart.js";
 import { Chart } from "react-chartjs-2";
 import { SectionBox } from "./section-box";
@@ -21,6 +23,8 @@ ChartJS.register(
     BarElement,
     LineElement,
     PointElement,
+    BarController,
+    LineController,
     Title,
     Tooltip,
     Legend
